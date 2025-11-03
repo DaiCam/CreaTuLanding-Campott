@@ -1,0 +1,35 @@
+.btn {
+  color: rgba(243, 203, 24, 0.836);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+.btn-comprar {
+  background-color: rgb(83, 56, 156);
+}
+
+.btn-comprar:hover {
+  background-color: rgb(120, 90, 200);
+}
+
+.btn-count {
+  background-color: rgb(8, 7, 1);
+}
+
+.btn-count:hover {
+  background-color: rgb(50, 45, 30);
+  color: rgba(243, 203, 24, 0.836);
+}
+
+.btn-number {
+  color: black;
+}
+
+.btn-number:hover {
+  color: rgb(39, 39, 39);
+}

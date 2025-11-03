@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react"
+import "../css/ItemCount.css"
 
 const ItemCount = ({ stock }) => {
   const [count, setCount] = useState(1)
@@ -33,18 +34,18 @@ const ItemCount = ({ stock }) => {
     <>
       <div>
         <button
-          className="btn btn-danger"
+          className="btn btn-count" //"btn btn-danger"
           onClick={restar}
           disabled={count === 0}
         >
           -
         </button>
-        <span className="btn">{count}</span>
-        <button className="btn btn-success" onClick={sumar}>
+        <span className="btn btn-number">{count}</span>
+        <button className="btn btn-count" onClick={sumar}>
           +
         </button>
       </div>
-      <button className="btn btn-primary" onClick={ejecutarCompra}>
+      <button className="btn btn-comprar" onClick={ejecutarCompra}>
         Comprar
       </button>
     </>
